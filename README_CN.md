@@ -81,7 +81,7 @@
 
 ### **基于深度神经网络的时间依赖建模**
 
-时间依赖建模关注于捕捉数据中的时序动态，以下是主流方法分类：
+时间依赖建模关注于捕捉数据中的时序动态，以下是几个主流方法：
 
 #### **1. 基于 RNN 的方法**
 - **LSTM (Long Short-Term Memory)**  
@@ -91,22 +91,19 @@
   简化 LSTM 的结构，计算更高效。
 
 #### **2. 基于 CNN 的方法**
+- **WaveNet**  
+  *论文: [WaveNet: A Generative Model for Raw Audio](https://arxiv.org/abs/1609.03499)*  
+  使用扩展卷积和残差连接处理长序列。
+
 - **TCN (Temporal Convolutional Network)**  
   *论文: [An Empirical Evaluation of Generic Convolutional and Recurrent Networks for Sequence Modeling](https://arxiv.org/abs/1803.01271)*  
   使用扩展卷积和因果卷积并行处理序列数据。
 
-- **WaveNet**  
-  *论文: [WaveNet: A Generative Model for Raw Audio](https://arxiv.org/abs/1609.03499)*  
-  使用扩展卷积和残差连接处理长序列。
 
 #### **3. 基于 Attention 的方法**
 - **Transformer**  
   *论文: [Attention Is All You Need](https://arxiv.org/abs/1706.03762)*  
   利用全局自注意力机制建模长序列依赖。
-
-- **Informer**  
-  *论文: [Informer: Beyond Efficient Transformer for Long Sequence Time-Series Forecasting](https://arxiv.org/abs/2012.07436)*  
-  针对长时间序列优化稀疏注意力机制，提升预测效率。
 
 ---
 
@@ -161,7 +158,7 @@
 
 ## **总结**
 
-时空数据挖掘是人工智能的关键研究方向之一，涵盖了图神经网络、时间序列建模与联合学习等技术。它在交通、能源、气候科学等领域有着广泛的应用前景。本项目系统性总结了该领域的经典与最新研究，希望为科研人员提供全面的参考。
+时空数据挖掘是人工智能的关键研究方向之一，涵盖了图神经网络、时序建模等技术。它在交通、能源、气候科学等领域有着广泛的应用前景。本项目系统性总结了该领域的经典与最新研究，希望为科研人员提供全面的参考。
 
 ---
 
@@ -169,3 +166,6 @@
 
 欢迎贡献更多经典论文、模型和应用场景！🎉  
 请通过 PR 或 issue 提交您的建议。
+
+Note：这个项目内容由ChatGPT自动生成，可能存在幻觉。
+
